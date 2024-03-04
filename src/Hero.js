@@ -17,7 +17,8 @@ const Hero = () => {
               />
               <br></br>
               <button>Shorten Url</button>
-      </form>
+          </form>
+          <span><p>By using our Url Shortener you agree to our terms and conditions</p></span>
     </div>
   );
 };
