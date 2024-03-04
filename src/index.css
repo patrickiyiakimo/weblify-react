@@ -22,7 +22,7 @@ body {
     /* padding-top: */
     padding-bottom: 8px;
     max-width: 100;
-    box-shadow:1px 1px 8px black;
+    box-shadow: 1px 1px 8px black;
   }
   .navbar ul {
     display: flex;
@@ -31,7 +31,7 @@ body {
     margin-left: 15px;
     padding-top: 15px;
     padding-right: 200px;
-    color: lightslategray;
+    color: rgb(168, 157, 157);
   }
   .navbar svg {
     width: 20px;
@@ -42,20 +42,24 @@ body {
     color: rgb(168, 157, 157);
   }
   .hero {
-    background: linear-gradient(to right,rgba(81, 19, 101, 0.579), rgb(20, 20, 86));
+    background: linear-gradient(
+      to right,
+      rgba(81, 19, 101, 0.579),
+      rgb(20, 20, 86)
+    );
   }
   .hero span {
     color: rgb(168, 157, 157);
   }
   .hero h1 {
-    color: lightslategray;
+    color: rgb(168, 157, 157);
     padding-top: 60px;
     padding-right: 30px;
     padding-left: 30px;
   }
   .hero p {
     padding: 30px;
-    font-size:17px;
+    font-size: 17px;
     color: rgb(168, 157, 157);
   }
   .hero input {
@@ -69,107 +73,142 @@ body {
     margin-left: 150px;
     margin-top: 10px;
     padding: 8px 20px;
-    background:rgb(31, 31, 146);
-    outline:none;
-    border:none;
-    border-radius:8px;
+    background: rgb(31, 31, 146);
+    outline: none;
+    border: none;
+    border-radius: 8px;
   }
-  .hero button :hover{
-    cursor:pointer;
-     background: linear-gradient(to right,rgba(180, 9, 237, 0.579), skyblue);
+  .hero button :hover {
+    cursor: pointer;
+    background: linear-gradient(to right, rgba(180, 9, 237, 0.579), skyblue);
   }
-.header h2{
+  .header h2 {
     text-align: center;
-    padding:50px;
-    color:rgba(81, 19, 101);
-}
-.header .content{
-    background: linear-gradient(to right,rgba(81, 19, 101, 0.579), rgb(20, 20, 86));
-}
+    padding: 50px;
+    color: rgba(81, 19, 101);
+  }
+  .header .content {
+    background: linear-gradient(
+      to right,
+      rgba(81, 19, 101, 0.579),
+      rgb(20, 20, 86)
+    );
+  }
 
-.header .content button{
-    border-radius:100%;
-    padding:20px;
-    border:none;
-    outline:none;
-    margin-left:170px;
+  .header .content button {
+    border-radius: 100%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    margin-left: 170px;
     margin-top: 50px;
     background-color: rgb(31, 31, 146);
-}
-.header .content h2{
+  }
+  .header .content h2 {
     color: rgb(168, 157, 157);
-}
-.header .content svg{
-    width:30px;
-    height:30px;
-     color: rgb(168, 157, 157);
-}
-.header .content p{
-     color: rgb(168, 157, 157);
-    font-size:17px;
-    padding-right:20px;
-    padding-left:20px;
-}
-.header span button{
-    background-color:rgb(31, 31, 146);
-    border:none;
-    outline:none;
-    padding:15px 30px;
-    margin-left:150px;
-    margin-top:30px;
-    border-radius:8px;
-    color:rgb(168, 157, 157);
-    font-size:17px;
-}
-.faq{
-     background: linear-gradient(to right,rgba(81, 19, 101, 0.579), rgb(20, 20, 86));
-}
-.faq h1{
+  }
+  .header .content svg {
+    width: 30px;
+    height: 30px;
+    color: rgb(168, 157, 157);
+  }
+  .header .content p {
+    color: rgb(168, 157, 157);
+    font-size: 17px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .header span button {
+    background-color: rgb(31, 31, 146);
+    border: none;
+    outline: none;
+    padding: 15px 30px;
+    margin-left: 150px;
+    margin-top: 30px;
+    border-radius: 8px;
+    color: rgb(168, 157, 157);
+    font-size: 17px;
+  }
+  .faq {
+    background: linear-gradient(
+      to right,
+      rgba(81, 19, 101, 0.579),
+      rgb(20, 20, 86)
+    );
+  }
+  .faq h1 {
     text-align: center;
-    margin-top:50px;
-     color:rgb(168, 157, 157);
-     padding-top:40px;
-}
-.faq p{
-    text-align:center;
-    margin-top:5px;
-     color:rgb(168, 157, 157);
-    font-size:17px;
-    padding-bottom:100px;
-    
-}
-.faq h3{
-    margin-left:30px;
-    color:rgb(168, 157, 157);
-}
-.faq span svg{
-    width:30px;
-    height:30px;
-    color:rgb(168, 157, 157);
-    position:absolute;
-    margin-left:350px;
-}
-.faq span p{
-    padding-top:10px;
-}
+    margin-top: 50px;
+    color: rgb(168, 157, 157);
+    padding-top: 40px;
+  }
+  .faq p {
+    text-align: center;
+    margin-top: 5px;
+    color: rgb(168, 157, 157);
+    font-size: 17px;
+    padding-bottom: 100px;
+  }
+  .faq h3 {
+    margin-left: 30px;
+    padding-bottom: 30px;
+    color: rgb(168, 157, 157);
+  }
+  .faq span svg {
+    height: 20px;
+    width: 20px;
+    color: rgb(168, 157, 157);
+    position: absolute;
+    margin-left: 390px;
+  }
+  .faq span p {
+    padding-top: 10px;
+  }
+  .footer {
+    background: linear-gradient(
+      to right,
+      rgba(81, 19, 101, 0.579),
+      rgb(20, 20, 86)
+    );
+    margin: 50px;
+    border-radius: 12px;
+  }
+  .footer h1 {
+    margin-top: 60px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: rgb(168, 157, 157);
+  }
+  .footer p {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 17px;
+    color: rgb(168, 157, 157);
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .footer button {
+    background-color: rgb(31, 31, 146);
+    border: none;
+    outline: none;
+    padding: 15px 30px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 8px;
+    color: rgb(168, 157, 157);
+    font-size: 17px;
+  }
+  .footertwo {
+    background: linear-gradient(
+      to right,
+      rgba(81, 19, 101, 0.579),
+      rgb(20, 20, 86)
+    );
+    text-align: center;
+  color: rgb(168, 157, 157);
+  padding-top:15px;
+  padding-bottom:15px;
+  box-shadow: 1px 1px 8px ;
+  }
 }

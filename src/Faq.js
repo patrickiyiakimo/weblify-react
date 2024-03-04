@@ -1,93 +1,3 @@
-// import React, { useState } from "react";
-
-// const Faq = () => {
-//   const [faq, setFaq] = useState([
-//     {
-//       question: "What is a URL Shortener?",
-//       answer:
-//         "A URL shortener is a tool that converts long and complex URLs into shorter, more manageable links. it makes sharing links easier and can also provide tracking and analytics features.",
-//       id: 1,
-//     },
-//     {
-//       question: "What is a URL Shortener?",
-//       answer:
-//         "A URL shortener is a tool that converts long and complex URLs into shorter, more manageable links. it makes sharing links easier and can also provide tracking and analytics features.",
-//       id: 2,
-//     },
-//     {
-//       question: "What is a URL Shortener?",
-//       answer:
-//         "A URL shortener is a tool that converts long and complex URLs into shorter, more manageable links. it makes sharing links easier and can also provide tracking and analytics features.",
-//       id: 3,
-//     },
-//     {
-//       question: "What is a URL Shortener?",
-//       answer:
-//         "A URL shortener is a tool that converts long and complex URLs into shorter, more manageable links. it makes sharing links easier and can also provide tracking and analytics features.",
-//       id: 4,
-//     },
-//     {
-//       question: "What is a URL Shortener?",
-//       answer:
-//         "A URL shortener is a tool that converts long and complex URLs into shorter, more manageable links. it makes sharing links easier and can also provide tracking and analytics features.",
-//       id: 5,
-//     },
-//     {
-//       question: "What is a URL Shortener?",
-//       answer:
-//         "A URL shortener is a tool that converts long and complex URLs into shorter, more manageable links. it makes sharing links easier and can also provide tracking and analytics features.",
-//       id: 6,
-//     },
-//   ]);
-
-//   const [isAnswerVisible, setAnswerVisible] = useState(false);
-
-//   const handleToggle = () => {
-//     setAnswerVisible(!isAnswerVisible);
-//   };
-
-//   return (
-//     <div className="faq">
-//       <h1>FAQ</h1>
-//       <p>Frequently Asked Questions</p>
-//       <span>
-//         <button onClick={handleToggle}>
-//           <svg
-//             xmlns="http://www.w3.org/2000/svg"
-//             fill="none"
-//             viewBox="0 0 24 24"
-//             strokeWidth="1.5"
-//             stroke="currentColor"
-//             className={`w-6 h-6 ${isAnswerVisible ? "rotate" : ""}`}
-//           >
-//             <path
-//               strokeLinecap="round"
-//               strokeLinejoin="round"
-//               d={
-//                 isAnswerVisible
-//                   ? "m4.5 15.75 7.5-7.5 7.5 7.5"
-//                   : "m19.5 8.25-7.5 7.5-7.5-7.5"
-//               }
-//             />
-//           </svg>
-//         </button>
-//       </span>
-//       {faq.map((item) => (
-//         <div key={item.id}>
-//           <h3>{item.question}</h3>
-//           {isAnswerVisible && (
-//             <span>
-//               <p>{item.answer}</p>
-//             </span>
-//           )}
-//         </div>
-//       ))}
-//     </div>
-//   );
-// };
-
-// export default Faq;
-
 import React, { useState } from "react";
 
 const Faq = () => {
@@ -97,36 +7,42 @@ const Faq = () => {
       answer:
         "A URL shortener is a tool that converts long and complex URLs into shorter, more manageable links. it makes sharing links easier and can also provide tracking and analytics features.",
       id: 1,
+      isAnswerVisible: false,
     },
     {
-      question: "What is a URL Shortener?",
+      question: "How do I use URL Shortener?",
       answer:
-        "A URL shortener is a tool that converts long and complex URLs into shorter, more manageable links. it makes sharing links easier and can also provide tracking and analytics features.",
+        "Using a URL shortener is simple. Just paste your long URL into the provided input, click the 'Shorten' button, and you'll get a shortened link that you can share.",
       id: 2,
+      isAnswerVisible: false,
     },
     {
-      question: "What is a URL Shortener?",
+      question: "Can I customize my short links?",
       answer:
-        "A URL shortener is a tool that converts long and complex URLs into shorter, more manageable links. it makes sharing links easier and can also provide tracking and analytics features.",
+        "Yes, you can customize your short links with a URL shortener that supports custom aliases. This feature allows you to create branded and memorable short URLs.",
       id: 3,
+      isAnswerVisible: false,
     },
     {
-      question: "What is a URL Shortener?",
+      question: "Are there analytics for my short links?",
       answer:
-        "A URL shortener is a tool that converts long and complex URLs into shorter, more manageable links. it makes sharing links easier and can also provide tracking and analytics features.",
+        "Many URL shorteners provide analytics features, allowing you to track the performance of your short links. You can see metrics such as click-through rate, geographic location of clicks, and more.",
       id: 4,
+      isAnswerVisible: false,
     },
     {
-      question: "What is a URL Shortener?",
+      question: "Is there a limit to the of links I can shorten?",
       answer:
-        "A URL shortener is a tool that converts long and complex URLs into shorter, more manageable links. it makes sharing links easier and can also provide tracking and analytics features.",
+        "The limit to the number of links you can shorten depends on the specific URL shortening service you're using. Check the service's documentation for information on any limitations.",
       id: 5,
+      isAnswerVisible: false,
     },
     {
-      question: "What is a URL Shortener?",
+      question: "How secure are shortened URLs?",
       answer:
-        "A URL shortener is a tool that converts long and complex URLs into shorter, more manageable links. it makes sharing links easier and can also provide tracking and analytics features.",
+        "While shortened URLs are generally safe to use, be cautious when clicking on them, especially from untrusted sources. Some malicious actors may use URL shorteners to disguise harmful links.",
       id: 6,
+      isAnswerVisible: false,
     },
   ];
 

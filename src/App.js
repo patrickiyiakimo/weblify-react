@@ -1,4 +1,6 @@
 import Faq from "./Faq";
+import Footer from "./Footer";
+import FooterTwo from "./FooterTwo";
 import Header from "./Header";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
@@ -17,6 +19,12 @@ function App() {
       </div>
       <div className="faq">
         <Faq />
+      </div>
+      <div className="footer">
+        <Footer />
+      </div>
+      <div className="footertwo">
+        <FooterTwo />
       </div>
     </div>
   );
