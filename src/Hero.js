@@ -45,7 +45,7 @@ import React from "react";
 const Hero = ({ showSignUp }) => {
   return (
     <div className="hero">
-      <div className="content">
+      {/* <div className="content">
         <ul>
           <li>
             <span>
@@ -53,7 +53,7 @@ const Hero = ({ showSignUp }) => {
             </span>
           </li>
         </ul>
-      </div>
+      </div> */}
       <h1>
         Effortless URL Shortening For <span>Everyone</span>
       </h1>
