@@ -1,3 +1,4 @@
+import Header from "./Header";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
 
@@ -9,6 +10,9 @@ function App() {
       </div>
       <div className="hero">
         <Hero />
+      </div>
+      <div className="header">
+        <Header />
       </div>
     </div>
   );

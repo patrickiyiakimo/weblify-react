@@ -42,7 +42,6 @@ body {
     color: rgb(168, 157, 157);
   }
   .hero {
-    /* background-color: rgb(175, 177, 179); */
     background: linear-gradient(to right,rgba(81, 19, 101, 0.579), rgb(20, 20, 86));
   }
   .hero span {
@@ -57,6 +56,7 @@ body {
   .hero p {
     padding: 30px;
     font-size:17px;
+    color: rgb(168, 157, 157);
   }
   .hero input {
     margin-left: 40px;
@@ -78,4 +78,56 @@ body {
     cursor:pointer;
      background: linear-gradient(to right,rgba(180, 9, 237, 0.579), skyblue);
   }
+.header h2{
+    text-align: center;
+    padding:50px;
+    color:rgba(81, 19, 101);
+}
+.header .content{
+    background: linear-gradient(to right,rgba(81, 19, 101, 0.579), rgb(20, 20, 86));
+}
+
+.header .content button{
+    border-radius:100%;
+    padding:20px;
+    border:none;
+    outline:none;
+    margin-left:170px;
+    margin-top: 50px;
+    background-color: rgb(31, 31, 146);
+}
+.header .content h2{
+    color: rgb(168, 157, 157);
+}
+.header .content svg{
+    width:30px;
+    height:30px;
+     color: rgb(168, 157, 157);
+}
+.header .content p{
+     color: rgb(168, 157, 157);
+    font-size:17px;
+    padding-right:20px;
+    padding-left:20px;
+}
+.header span button{
+    background-color:rgb(31, 31, 146);
+    border:none;
+    outline:none;
+    padding:15px 30px;
+    margin-left:150px;
+    margin-top:30px;
+    border-radius:8px;
+    color:rgb(168, 157, 157);
+    font-size:17px;
+}
+
+
+
+
+
+
+
+
+
 }
