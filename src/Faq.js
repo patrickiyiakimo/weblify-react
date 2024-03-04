@@ -65,8 +65,9 @@ const Faq = () => {
       {faq.map((item) => (
         <div key={item.id}>
           <span>
-            <button onClick={() => handleToggle(item.id)}>
+            {/* <button onClick={() => handleToggle(item.id)}> */}
               <svg
+                onClick={() => handleToggle(item.id)}
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -84,7 +85,7 @@ const Faq = () => {
                   }
                 />
               </svg>
-            </button>
+            {/* </button> */}
           </span>
           <h3>{item.question}</h3>
           {item.isAnswerVisible && (
