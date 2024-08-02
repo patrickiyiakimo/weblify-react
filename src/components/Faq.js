@@ -10,7 +10,7 @@ const Faq = () => {
         </p>
       </div>
       <div className="">
-        <div className="collapse collapse-arrow bg-gray-700 text-gray-300">
+        <div className="collapse collapse-arrow bg-gray-700 text-gray-300 rounded-none">
           <input type="radio" name="my-accordion-2" defaultChecked />
           <div className="collapse-title text-xl font-medium">
             Click to open this one and close others
@@ -19,7 +19,7 @@ const Faq = () => {
             <p>hello</p>
           </div>
         </div>
-        <div className="collapse collapse-arrow bg-gray-700 text-gray-300">
+        <div className="collapse collapse-arrow bg-gray-700 text-gray-300 rounded-none">
           <input type="radio" name="my-accordion-2" />
           <div className="collapse-title text-xl font-medium">
             Click to open this one and close others
@@ -28,7 +28,7 @@ const Faq = () => {
             <p>hello</p>
           </div>
         </div>
-        <div className="collapse collapse-arrow bg-gray-700 text-gray-300">
+        <div className="collapse collapse-arrow bg-gray-700 text-gray-300 rounded-none">
           <input type="radio" name="my-accordion-2" />
           <div className="collapse-title text-xl font-medium">
             Click to open this one and close others
@@ -37,7 +37,7 @@ const Faq = () => {
             <p>hello</p>
           </div>
         </div>
-        <div className="collapse collapse-arrow bg-gray-700 text-gray-300">
+        <div className="collapse collapse-arrow bg-gray-700 text-gray-300 rounded-none">
           <input type="radio" name="my-accordion-2" />
           <div className="collapse-title text-xl font-medium">
             Click to open this one and close others
@@ -46,7 +46,7 @@ const Faq = () => {
             <p>hello</p>
           </div>
         </div>
-        <div className="collapse collapse-arrow bg-gray-700 text-gray-300">
+        <div className="collapse collapse-arrow bg-gray-700 text-gray-300 rounded-none">
           <input type="radio" name="my-accordion-2" />
           <div className="collapse-title text-xl font-medium">
             Click to open this one and close others
