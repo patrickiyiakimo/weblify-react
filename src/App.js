@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Input from "./components/Input";
+import Faq from "./components/Faq";
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
       </div>
       <div>
         <Input />
+      </div>
+      <div>
+        <Faq />
       </div>
     </div>
   );
