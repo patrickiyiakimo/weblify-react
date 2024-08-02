@@ -1,30 +1,35 @@
 import React from 'react'
+import * as Yup from "yup";
+
 
 const SignUp = () => {
+  
   return (
     <div className="mt-28 md:mt-40 font-abc ml-2 md:ml-20 md:flex">
       <div>
-        <input
-          type="text"
-          name="text"
-          placeholder="Enter your name"
-          className="block border-gray-500 border-2 rounded-md w-96 py-3 mt-8"
-        />
-        <input
-          type="text"
-          name="text"
-          placeholder="Enter your email"
-          className="block border-gray-500 border-2 rounded-md w-96 py-3 mt-8"
-        />
-        <input
-          type="text"
-          name="text"
-          placeholder="Enter your Password"
-          className="block border-gray-500 border-2 rounded-md w-96 py-3 mt-8"
-        />
-        <button className="btn mt-8 w-96  md:px-20 rounded-md text-white  hover:text-gray-600 bg-blue-300">
-          Sign Up
-        </button>
+        <form>
+          <input
+            type="text"
+            name="text"
+            placeholder="Enter your name"
+            className="block border-gray-500 border-2 rounded-md w-96 py-3 mt-8"
+          />
+          <input
+            type="text"
+            name="text"
+            placeholder="Enter your email"
+            className="block border-gray-500 border-2 rounded-md w-96 py-3 mt-8"
+          />
+          <input
+            type="text"
+            name="text"
+            placeholder="Enter your Password"
+            className="block border-gray-500 border-2 rounded-md w-96 py-3 mt-8"
+          />
+          <button className="btn mt-8 w-96  md:px-20 rounded-md text-white  hover:text-gray-600 bg-blue-300">
+            Sign Up
+          </button>
+        </form>
       </div>
       <div>
         <img
