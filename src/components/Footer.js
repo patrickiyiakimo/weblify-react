@@ -1,8 +1,10 @@
 import React from 'react'
+import Booster from './Booster';
 
 const Footer = () => {
   return (
     <div>
+      <Booster />
       <footer className="footer bg-base-300 text-base-content p-10 font-abc">
         <div>
           <h1 className="font-bold text-3xl">Weblify</h1>
