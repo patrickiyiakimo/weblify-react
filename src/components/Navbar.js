@@ -1,4 +1,6 @@
 import React from "react";
+import { Link as RouterLink } from "react-router-dom";
+// import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 const Navbar = () => {
   return (
@@ -58,10 +60,14 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end hidden md:block ml-40">
-        <button className="btn rounded-full px-6">Log In</button>
-        <button className="btn m-3 px-6 rounded-full text-white  hover:text-gray-600 bg-blue-300">
-          Sign Up
-        </button>
+        <RouterLink to="login">
+          <button className="btn rounded-full px-6">Log In</button>
+        </RouterLink>
+        <RouterLink to="signup">
+          <button className="btn m-3 px-6 rounded-full text-white  hover:text-gray-600 bg-blue-300">
+            Sign Up
+          </button>
+        </RouterLink>
       </div>
     </div>
   );
