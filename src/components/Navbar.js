@@ -34,9 +34,15 @@ const Navbar = () => {
             <li className="hover:text-blue-600">
               <a>Resources</a>
             </li>
+            <div className="navbar-end">
+              <button className="btn w-40 rounded-md">Log In</button>
+              <button className="btn mt-3 px-6 w-40 rounded-md text-white  hover:text-gray-600 bg-blue-300">
+                Sign Up
+              </button>
+            </div>
           </ul>
         </div>
-        <a className="pl-5 text-3xl font-bold">Weblify</a>
+        <a className="ml-20 md:pl-5 text-3xl font-bold ">Weblify</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 ">
@@ -51,7 +57,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div className="navbar-end">
+      <div className="navbar-end hidden md:block ml-40">
         <button className="btn rounded-full ">Log In</button>
         <button className="btn m-3 px-6 rounded-full text-white  hover:text-gray-600 bg-blue-300">
           Sign Up

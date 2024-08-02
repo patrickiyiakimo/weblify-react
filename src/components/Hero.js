@@ -11,10 +11,10 @@ const Hero = () => {
         />
       </div>
       <div className="mt-20">
-        <h1 className="font-bold text-5xl pb-3 ml-5 md:text-6xl md:ml-28">
+        <h1 className="font-bold text-5xl pb-3 ml-2 md:text-6xl md:ml-28">
           More than just <br/>shorter links
         </h1>
-        <p className="ml-5 md:ml-28">
+        <p className="ml-2 md:ml-28">
           Build your brand's recognition and get detailed insights <br/>on how your
           links are performing.Weblify serves as a user-friendly URL shortener
           that simplifies the process of managing and <br/>shortening links,
