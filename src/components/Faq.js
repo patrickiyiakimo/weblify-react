@@ -22,6 +22,7 @@ const Faq = () => {
             </p>
           </div>
         </div>
+        <hr />
         <div className="collapse collapse-arrow bg-gray-700 text-gray-300 rounded-none">
           <input type="radio" name="my-accordion-2" />
           <div className="collapse-title text-xl font-medium">
@@ -35,6 +36,7 @@ const Faq = () => {
             </p>
           </div>
         </div>
+        <hr />
         <div className="collapse collapse-arrow bg-gray-700 text-gray-300 rounded-none">
           <input type="radio" name="my-accordion-2" />
           <div className="collapse-title text-xl font-medium">
@@ -44,6 +46,7 @@ const Faq = () => {
             <p>Yes, our URL shortening service is completely free to use.</p>
           </div>
         </div>
+        <hr />
         <div className="collapse collapse-arrow bg-gray-700 text-gray-300 rounded-none">
           <input type="radio" name="my-accordion-2" />
           <div className="collapse-title text-xl font-medium">
@@ -55,6 +58,7 @@ const Faq = () => {
             </p>
           </div>
         </div>
+        <hr />
         <div className="collapse collapse-arrow bg-gray-700 text-gray-300 rounded-none">
           <input type="radio" name="my-accordion-2" />
           <div className="collapse-title text-xl font-medium">
