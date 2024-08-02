@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Input from "./components/Input";
 import Faq from "./components/Faq";
 import Footer from "./components/Footer";
+import Advanced from "./components/Advanced";
 
 function App() {
   return (
@@ -17,8 +18,12 @@ function App() {
         <Input />
       </div>
       <div>
+        <Advanced />
+      </div>
+      <div>
         <Faq />
       </div>
+
       <div>
         <Footer />
       </div>
