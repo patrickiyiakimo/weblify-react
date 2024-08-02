@@ -37,10 +37,14 @@ const Navbar = () => {
               <a>Resources</a>
             </li>
             <div className="navbar-end">
-              <button className="btn w-40 rounded-md">Log In</button>
-              <button className="btn mt-3 px-6 w-40 rounded-md text-white  hover:text-gray-600 bg-blue-300">
-                Sign Up
-              </button>
+              <RouterLink to="login">
+                <button className="btn w-40 rounded-md">Log In</button>
+              </RouterLink>
+              <RouterLink to="signup">
+                <button className="btn mt-3 px-6 w-40 rounded-md text-white  hover:text-gray-600 bg-blue-300">
+                  Sign Up
+                </button>
+              </RouterLink>
             </div>
           </ul>
         </div>
