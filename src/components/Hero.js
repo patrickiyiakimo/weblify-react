@@ -16,7 +16,7 @@ const Hero = () => {
         </h1>
         <p className="ml-2 md:ml-28">
           Build your brand's recognition and get detailed insights <br/>on how your
-          links are performing.Weblify serves as a user-friendly URL shortener
+          links are performing. Weblify serves as a user-friendly URL shortener
           that simplifies the process of managing and <br/>shortening links,
           including branded ones. <br/>Enhance your brand's growth and business
           potential by utilizing short, memorable, and engaging links with
